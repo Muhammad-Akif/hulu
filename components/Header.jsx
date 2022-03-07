@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import { BadgeCheckIcon, CollectionIcon, HomeIcon, LightningBoltIcon, SearchIcon, UserIcon} from "@heroicons/react"
+import { BadgeCheckIcon, CollectionIcon, HomeIcon, LightningBoltIcon, SearchIcon, UserIcon} from "@heroicons/react/outline"
 import HeaderItems from "./HeaderItems"
 export default function Header() {
     return (
-        <header>
-            <div className="">
+        <header className="flex flex-col sm:flex-row m-5">
+            <div className="flex flex-grow justify-evenly max-w-2xl">
                 <HeaderItems title="HOME" Icon={HomeIcon} />
                 <HeaderItems title="TRENDING" Icon={LightningBoltIcon} />
                 <HeaderItems title="VERIFIED" Icon={BadgeCheckIcon} />

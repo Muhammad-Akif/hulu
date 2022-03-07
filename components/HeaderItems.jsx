@@ -2,7 +2,12 @@ import React from 'react'
 
 function HeaderItems({ title, Icon}) {
   return (
-    <div>HeaderItems</div>
+    <div className="">
+        <Icon className="" />
+        <p className="">
+            {title}
+        </p>
+    </div>
   )
 }
 

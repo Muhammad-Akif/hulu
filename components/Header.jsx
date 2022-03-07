@@ -6,6 +6,11 @@ export default function Header() {
         <header>
             <div className="">
                 <HeaderItems title="HOME" Icon={HomeIcon} />
+                <HeaderItems title="TRENDING" Icon={LightningBoltIcon} />
+                <HeaderItems title="VERIFIED" Icon={BadgeCheckIcon} />
+                <HeaderItems title="COLLECTIONS" Icon={CollectionIcon} />
+                <HeaderItems title="SEARCH" Icon={SearchIcon} />
+                <HeaderItems title="ACCOUNT" Icon={UserIcon} />
             </div>
             <Image 
             className="object-contain" 

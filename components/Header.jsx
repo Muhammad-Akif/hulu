@@ -3,8 +3,8 @@ import { BadgeCheckIcon, CollectionIcon, HomeIcon, LightningBoltIcon, SearchIcon
 import HeaderItems from "./HeaderItems"
 export default function Header() {
     return (
-        <header className="flex flex-col sm:flex-row m-5">
-            <div className="flex flex-grow justify-evenly max-w-2xl">
+        <header className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
+            <div className="flex flex-grow lg:pt-4 justify-evenly max-w-2xl">
                 <HeaderItems title="HOME" Icon={HomeIcon} />
                 <HeaderItems title="TRENDING" Icon={LightningBoltIcon} />
                 <HeaderItems title="VERIFIED" Icon={BadgeCheckIcon} />
@@ -16,7 +16,7 @@ export default function Header() {
             className="object-contain" 
             src="https://www.nicepng.com/png/full/242-2424140_hulu-png-logo-hulu-logo-white-png.png"
             width={200} 
-            height={100} 
+            height={80} 
             />
         </header>
     )

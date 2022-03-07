@@ -16,7 +16,7 @@ export default function Header() {
             className="object-contain" 
             src="https://www.nicepng.com/png/full/242-2424140_hulu-png-logo-hulu-logo-white-png.png"
             width={200} 
-            height={80} 
+            height={60} 
             />
         </header>
     )

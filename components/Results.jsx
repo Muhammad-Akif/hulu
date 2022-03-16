@@ -1,9 +1,13 @@
 import React from 'react'
 
-const Results = () => {
-  return (
-    <div>Results</div>
-  )
+const Results = ({ requests }) => {
+    return (
+        <div>
+            {requests.map(result => (
+                <Thumbnail/>
+            ))}
+        </div>
+    )
 }
 
 export default Results

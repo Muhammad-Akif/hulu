@@ -1,5 +1,6 @@
 import React from 'react'
 import Thumbnail from './Thumbnail'
+import FilpMove from 'react-filp-move'
 
 const Results = ({ results }) => {
     return (

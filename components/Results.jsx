@@ -1,11 +1,11 @@
 import React from 'react'
 import Thumbnail from './Thumbnail'
 
-const Results = ({ requests }) => {
+const Results = ({ results }) => {
     return (
         <div>
-            {requests.map(result => (
-                <Thumbnail />
+            {results.map(result => (
+                <Thumbnail key={result.id} result={result}/>
             ))}
         </div>
     )

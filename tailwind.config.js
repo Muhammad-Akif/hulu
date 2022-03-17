@@ -7,9 +7,6 @@ module.exports = {
       screens: {
         "3xl": "2000px"
       },
-      width: {
-        '128': '10%',
-      }
     },
   },
   variants: {

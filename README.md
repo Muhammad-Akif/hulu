@@ -13,3 +13,6 @@ Project is created with
 * Server Side Render approaches
 * Tailwind CSS 
 * tmdb Api.
+
+## Setup:
+$ run `npm i && npm run dev || yarn i && yarn run dev` for starting the application.

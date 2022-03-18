@@ -8,7 +8,9 @@ const Nav = () => {
   return (
     <nav className="relative">
       <div className="flex px-8 sm:px-20 text-2xl whitespace-nowrap space-x-10 sm:space-x-20 overflow-x-scroll scrollbar-hide">
-        {Object.entries(requests).map(([key, { title, url }]) => (
+        {Object.entries(requests).map(([key, { title, url }]) => ( 
+          // const obj = { foo: 'bar', baz: 42 };
+          // console.log(Object.entries(obj)); // [ ['foo', 'bar'], ['baz', 42] ]
           <h2
           onClick={() => router.push(`/?genre=${key}`)}
             key={key}
